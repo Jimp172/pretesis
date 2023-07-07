@@ -1,0 +1,77 @@
+  #container1{
+    /*margin-top: 20px;*/
+  }
+  #label1{
+    font-size: 11px;
+  }
+  #saldo{
+    background-color: #C1C000;
+    border: 0;
+  }
+  .saldo_input{
+    background-color: #FFFFBE;
+    border: 0;
+  }
+  .red{
+    color: #E80A0A;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .red1{
+    background-color: #810001;
+  }
+  .black{
+    color: #010101;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .green{
+    color: #20AC1D;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .blue{
+    color: #04012C;
+    font-size: 14px;
+    font-weight: bold;
+  }
+ #customers table {
+    border-collapse: collapse;
+  }
+  #customers table, th, td {
+    /*border: solid 1px black;*/
+    padding: 2px;
+  }
+  #customers tbody tr:nth-child(even) {
+    background:#fffff;
+  }
+  #customers tbody tr:nth-child(odd) {
+    background: #e2fbff;;
+  }
+  #customers tbody tr:nth-child(even):hover {
+    background: #DDB;
+  }
+  #customers tbody tr:nth-child(odd):hover {  background: #DDA;}
+  .sombra {
+    width: 99%;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.6);
+  }
+  .sinborde{
+    border: 0;
+  }
+
+  #tbl_style tbody tr:nth-child(even) { background:#fffff;}
+  #tbl_style tbody tr:nth-child(odd) { background: #e2fbff;}
+  #tbl_style tbody tr:nth-child(even):hover {  background: #DDB;}
+  #tbl_style thead { background: #afd6e2; }
+  #tbl_style tbody tr:nth-child(odd):hover {  background: #DDA;}
+  #tbl_style table {border-collapse: collapse;}
+  #tbl_style table, th, td {  border: solid 1px #aba0a0;  padding: 2px;  }
+  #tbl_style tbody { box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.6);  }
+  #tbl_style thead { background: #afd6e2;  box-shadow: 10px 0px 6px rgba(0, 0, 0, 0.6);} 
+
+  /*#datos_t tbody { display:block; height:300px;  overflow-y:auto; width:fit-content;}*/
+  /*#datos_t thead,tbody tr {    display:table;  width:100%;  table-layout:fixed; } */
+  #tbl_style thead { width: calc( 100% - 1.2em ) /*scrollbar is average 1em/16px width, remove it from thead width*/ }
+
+  
